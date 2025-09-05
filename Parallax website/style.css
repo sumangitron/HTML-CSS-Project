@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.pimg1 {
+  min-height: 100vh;
+  background-image: url(images/image1.png);
+  position: relative;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  background-color: #313534;
+  color: white;
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about {
+  text-align: center;
+  padding: 16px 40px;
+}
+
+.about h2 {
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.about p {
+  color: gray;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.pimg2 {
+  min-height: 400px;
+  background-image: url(images/image2.png);
+  position: relative;
+}
+
+.ptext2 {
+  background-color: rgba(0, 0, 0, 0.074);
+  color: white;
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-dark {
+  background-color: #313534;
+  color: white;
+}
+
+.about-dark h2 {
+  color: white;
+}
+
+.about-dark p {
+  color: white;
+}
+
+.pimg3 {
+  min-height: 400px;
+  background-image: url(images/image3.png);
+  position: relative;
+}
+
+.ptext3 {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
