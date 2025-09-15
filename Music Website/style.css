@@ -164,7 +164,7 @@ nav {
     line-height: 1.8;
 }
 
-.collections button {
+#blue-btn {
     border: none;
     padding: 8px 10px;
     font-size: 12px;
@@ -209,3 +209,91 @@ nav {
     font-weight: 400;
     line-height: 1.6;
 }
+
+.card-section {
+    padding: 50px 0;
+}
+
+.card {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card img {
+    width: 360px;
+    height: 210px;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 70px;
+}
+
+.card-description h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-description p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.card-description button {
+    align-self: flex-start;
+}
+
+footer {
+    background-color: #1B0058;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-box {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.shop, .store, .education, .about {
+    flex-grow: 1;
+}
+
+.style h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.style p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+ hr {
+    margin-bottom: 16px;
+ }
+
+ .bottom-section {
+    background-color: #270082;
+    color: white;
+ }
+
+ .bottom {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px 0;
+ }
+
+ .bottom p {
+    font-size: 12px;
+ }
