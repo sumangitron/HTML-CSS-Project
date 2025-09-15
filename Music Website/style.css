@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    /* border: 1px solid red; */
+    background-color: #270082;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* box-shadow: 5px 5px 5px rgba(39, 39, 39, 0.72); */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 0;
+    /* border: 1px solid black; */
+}
+
+.logo h3 {
+    color: white;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-items ul li {
+    list-style-type: none;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.hero {
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.hero-description {
+    /* border: 1px solid red; */
+    max-width: 900px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-description h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-description h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-description p {
+    font-size: 12px;
+}
+
+.hero-description p span {
+    margin: auto;
+}
+
+.trail-container {
+    background-color: #281154;
+    padding: 20px 0;
+    position: relative;
+}
+
+.trail-description {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 230px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.trail-description h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.trail-description h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.trail-description h4 {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.trail-description button {
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #DC0000;
+    color: white;
+}
+
+.trail-description p {
+    font-size: 10px;
+    font-weight: 250;
+}
+
+#iphn-ipad {
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    top: 250px;
+}
+
+.collection-section {
+    padding: 250px 0px 30px 0px;
+}
+
+.collections {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.collections h3 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.collections p {
+    font-size: 11px;
+    font-weight: 250;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.collections button {
+    border: none;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #37008e;
+    color: white;
+}
+
+.collections img {
+    width: 700px;
+    height: 450px;
+}
+
+.video-section {
+    background-image: url(images/video.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.video-box {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+.video-box h3 {
+    font-weight: 500;
+}
+
+.video-box p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.6;
+}
